@@ -1,0 +1,25 @@
+assocQuiz takes two files as arguments:
+1) a file of quiz items
+2) a stats file 
+
+The quiz items file should be a list of questions and answers on alternate lines, for instance:
+color of bricks
+red
+color of pavement
+grey
+color of bark
+brown
+
+if the stats file exists, then assocQuiz will read it in.  otherwise it will create a new file.
+
+The stats file tracks which question-answer pairs have been quizzed, and ranks them in order of their score.  Pairs with high scores are more likely to be asked again. 
+
+The flipFile utility allows you to reverse the order of the quiz file.  Depending on the quiz that might be more or less useful, for instance the color example above becomes:
+red
+color of bricks
+grey
+color of pavement
+brown
+color of bark
+
+ 
