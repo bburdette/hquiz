@@ -1,4 +1,15 @@
-assocQuiz takes two files as arguments:
+---------------- try it out ----------------
+build with ghc:
+
+ghc assocQuiz.hs
+
+then try one of the existing quizzes:
+
+./assocQuiz quizzes/elements my_elements.stats
+
+----------------- more info ----------------
+
+ assocQuiz takes two files as arguments:
 1) a file of quiz items
 2) a stats file 
 
@@ -22,4 +33,4 @@ color of pavement
 brown
 color of bark
 
- 
+
