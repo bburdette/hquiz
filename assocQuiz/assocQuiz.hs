@@ -278,9 +278,10 @@ main = do
        putStrLn "Welcome to the AssocQuiz.  Enter 'q' at any time to quit.";
        doGuessing tehstats (args !! 1)
    else do
-    print "AssocQuiz infile statsfile == generate a blank statistics file with all the pairs in infle."
-    print "AssocQuiz statsfile == play the game using the passed statsfile.  "
-    print "AssocQuiz <anything else> == print syntax message and exit."
+    putStrLn "assocQuiz syntax: "
+    putStrLn "assocQuiz <infile> <statsfile> == generate a blank statistics file with all the pairs in infle."
+    putStrLn "assocQuiz <statsfile> == play the game using the passed statsfile.  "
+    putStrLn "assocQuiz <anything else> == print syntax message and exit."
 
        
 {-    

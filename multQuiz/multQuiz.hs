@@ -262,9 +262,10 @@ main = do
        putStrLn "Welcome to the multquiz.  Enter 'q' at any time to quit.";
        doGuessing tehstats (args !! 2)
    else do
-    print "MultQuiz a b statsfile == generate a blank statistics file with all the pairs (a to b, a to b)"
-    print "MultQuiz statsfile == play the game using the passed statsfile.  "
-    print "MultQuiz <anything else> == print syntax message and exit."
+    putStrLn "multQuiz syntax: "
+    putStrLn "multQuiz <a> <b> <statsfile> == generate a blank statistics file with all the pairs (a to b, a to b)"
+    putStrLn "multQuiz <statsfile> == play the game using the passed statsfile.  "
+    putStrLn "multQuiz <anything else> == print syntax message and exit."
 
        
 {-    
